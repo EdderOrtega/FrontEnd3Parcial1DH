@@ -1,11 +1,11 @@
 import "./App.css";
-import Card from "./components/Card";
+import Form from "./components/Form";
+
 function App() {
   return (
     <div className="app">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+      <h1>Registro de usuario</h1>
+      <Form />
     </div>
   );
 }
